@@ -45,7 +45,7 @@ noBtn.addEventListener("mouseover", () => {
 // yesBtn.style.transition = "transform 0.3s ease";
 
 // noBtn.addEventListener("click", () => {
-//     yesScale += 2;
+//     yesScale += 4;
 
 //     if (yesBtn.style.position !== "fixed") {
 //         yesBtn.style.position = "fixed";
@@ -60,7 +60,7 @@ noBtn.addEventListener("mouseover", () => {
 // YES is clicked
 
 yesBtn.addEventListener("click", () => {
-    title.textContent = "Yippeeee!";
+    title.textContent = "Yeeey!";
 
     catImg.src = "cat_dance.gif";
 
